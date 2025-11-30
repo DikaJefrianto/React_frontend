@@ -8,7 +8,7 @@ import axios from 'axios';
 //     withCredentials: true,
 // });
 const axiosInstance = axios.create({
-    baseURL: 'https://gracious-enchantment-production.up.railway.app/api',
+    baseURL: 'https://ideal-commitment-production.up.railway.app/api',
     headers: { 'Content-Type': 'application/json' },
     withCredentials: true,
 });
