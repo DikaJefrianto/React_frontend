@@ -10,7 +10,7 @@ export default function BatchStockPage() {
   const [sortConfig, setSortConfig] = useState({ key: "tanggal_masuk_batch", direction: "asc" });
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/batch-stock", {
+    axios.get("https://ideal-commitment-production.up.railway.app/api/batch-stock", {
       headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
     })
     .then(res => {
