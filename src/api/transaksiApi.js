@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://127.0.0.1:5000/api/transaksi";
+const BASE_URL = "https://ideal-commitment-production.up.railway.app/api/transaksi";
 
 export const getTransactions = async () => {
   const res = await axios.get(BASE_URL);
